@@ -1,5 +1,3 @@
-
-
 def fizzbuzz(string: str) -> str:
 
     if not isinstance(string, str) or not string or not string.isdecimal() or string[0] == '0':
